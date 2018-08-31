@@ -6,5 +6,5 @@ import (
 
 // Hello : 헬로 버전 출력
 func Hello() {
-	fmt.Println("Hello, this is 3.1.0")
+	fmt.Println("Hello, this is 3.2.0")
 }
