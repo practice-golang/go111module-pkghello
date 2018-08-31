@@ -1,1 +1,1 @@
-module github.com/practice-golang/go111module-pkghello/v2
+module github.com/practice-golang/go111module-pkghello/v3
