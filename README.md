@@ -6,7 +6,7 @@ go mod init
 go build
 ```
 
-## Modify & Build
+## Change module & Build
 ```bash
 go mod tidy
 go build
