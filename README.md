@@ -14,6 +14,8 @@ go build
 
 ## Example using this module
 * Because last release is v3.1.0 thus, you will never see the output - "Hello, this is 3.2.0", from this module. :-p
+* [Because of this rule](https://github.com/golang/go/wiki/Modules#semantic-import-versioning), v0 and v1 will not work.
+* And because github.com/practice-golang/go111module-pkghello point to v1.0.0 so, this will not work too.
 ```go
 // go111module-apphello
 package main
