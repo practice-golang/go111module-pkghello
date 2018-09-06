@@ -17,7 +17,7 @@ go build
 * [Because of this rule](https://github.com/golang/go/wiki/Modules#semantic-import-versioning), v0 and v1 will not work. You can use only v2 or v3
 * Current [master branch](https://github.com/practice-golang/go111module-pkghello) point to v3.2.0 but go mod will try to find v1.0.0 so, [base path](https://github.com/practice-golang/go111module-pkghello) will not work too.
 ```go
-// go111module-apphello - If you create this at out of GOPATH, you shoud add like below whether it is a real path or not.
+// If you create this at out of GOPATH, you shoud add like below comment whether it is a real path or not.
 // package main // import "github.com/practice-golang/my-mod"
 package main
 
